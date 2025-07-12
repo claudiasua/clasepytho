@@ -8,11 +8,11 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Load the trained SVC model and the scaler
 try:
-    svc_model_loaded = joblib.load('svc_model.pkl')
+    svc_model_loaded = joblib.load('svc_model.jb')
     # Assuming the scaler used for normalization in the notebook is saved as 'scaler.pkl'
     # You might need to save the scaler in your original notebook before deploying
-    # joblib.dump(scaler, 'scaler.pkl')
-    scaler = joblib.load('scaler.pkl')
+    # joblib.dump(scaler, 'scaler.jb')
+    scaler = joblib.load('scaler.jb')
 except FileNotFoundError:
     st.error("Model or scaler file not found. Please ensure 'svc_model.pkl' and 'scaler.pkl' are in the same directory.")
     st.stop() # Stop the app if files are not found
