@@ -31,7 +31,7 @@ except FileNotFoundError:
 
 # App title
 if cabezote_img:
-    st.image(cabezote_img, use_column_width=True)
+    st.image(cabezote_img, use_container_width =True)
 
 st.title("Modelo IA para predicción de problemas cardiacos")
 
