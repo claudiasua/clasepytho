@@ -65,11 +65,11 @@ st.subheader("Resultado de la Predicción:")
 if prediction[0] == 0:
     st.markdown("<h3 style='color: black; background-color: lightgreen;'>No sufrirá del corazón 😊</h3>", unsafe_allow_html=True)
     if no_sufre_img:
-        st.image(no_sufre_img, use_column_width=True)
+        st.image(no_sufre_img, use_container_width =True)
 else:
     st.markdown("<h3 style='color: black; background-color: red;'>Sufrirá del corazón 😟</h3>", unsafe_allow_html=True)
     if si_sufre_img:
-        st.image(si_sufre_img, use_column_width=True)
+        st.image(si_sufre_img, use_container_width =True)
 
 st.markdown("---")
 st.write("Elaborado por: Alfredo Diaz © UNAB 2025")
