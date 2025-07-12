@@ -20,7 +20,7 @@ except FileNotFoundError:
 # Load images
 try:
     cabezote_img = Image.open('cabezote.jpg')
-    no_sufre_img = Image.open('Nosufre.jpg')
+    no_sufre_img = Image.open('NoSufre.jpg')
     si_sufre_img = Image.open('Sisufre.jpg')
 except FileNotFoundError:
      st.warning("Image files not found. Please make sure 'cabezote.jpg', 'No sufre.jpg', and 'Si sufre.jpg' are in the same directory.")
