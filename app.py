@@ -72,4 +72,4 @@ else:
         st.image(si_sufre_img, use_container_width =True)
 
 st.markdown("---")
-st.write("Elaborado por: Alfredo Diaz © UNAB 2025")
+st.write("Elaborado por: Klaudialiliana © UNAB 2025")
