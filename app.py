@@ -1,5 +1,5 @@
 #app para predicción de problema cardiaco
-NO CORRER CON EL BOTON DE RuntimeError
+#NO CORRER CON EL BOTON DE RuntimeError
 
 ...
 se ejecuta primero cargan las bibliotecas requeridas con
