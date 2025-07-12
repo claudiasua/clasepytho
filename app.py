@@ -1,14 +1,4 @@
 #app para predicción de problema cardiaco
-#NO CORRER CON EL BOTON DE RuntimeError
-
-...
-se ejecuta primero cargan las bibliotecas requeridas con
-python -r install requirements.txt (tenga creado ese archivo)
-
-se ejecuta la aplicacion con
-steamlit run app.py dede la linea del terminal o de su powershell
-
-...
 
 
 import streamlit as st
